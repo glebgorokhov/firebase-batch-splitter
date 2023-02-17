@@ -1,0 +1,36 @@
+{
+  "name": "firebase-batch-splitter",
+  "version": "1.0.0",
+  "description": "A tool to exceed Firebase limitations for batched writes",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glebgorokhov/firebase-batch-splitter.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "batch"
+  ],
+  "author": "Gleb Gorokhov <theververy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glebgorokhov/firebase-batch-splitter/issues"
+  },
+  "homepage": "https://github.com/glebgorokhov/firebase-batch-splitter#readme",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "8.22.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^2.7.1",
+    "typescript": "^4.5.4"
+  }
+}
